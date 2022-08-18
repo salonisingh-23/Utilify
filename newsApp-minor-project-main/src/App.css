@@ -1,0 +1,96 @@
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+  /* flex-wrap: wrap; */
+  /* background-color: #222; */
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: hidden;
+  
+  font-family: 'Anek Malayalam', sans-serif;
+  background: url('./pages/assets/jpg2.jpg');
+  background-size: cover;
+   background-attachment: fixed;
+  /* background-position-y: center; */
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  min-width: 100%;
+  /* background-color: #222; */
+  /* background: url('./pages/assets/jpg2.jpg'); */
+  /* background-size: cover; */
+  opacity: 0.8;
+  /* background-repeat: no-repeat; */
+  /* margin-top:100px; */
+  /*  */
+ 
+  }
+
+.logout-div{
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  top: 0;
+  background-color: #222;
+  opacity:0.9;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  
+}
+ button,a {
+  margin: 15px;
+}
+
+.logout-div a {
+  text-decoration: none;
+  color: white;
+}
+#logo{
+  font-size: 20px;
+  color: #fff;
+}
+
+#logo:hover {
+  font-size: 20px;
+  color: #3B44F6;
+}
+
+.logout-div a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.App button{
+  margin: 15px;
+  margin-top: -300px;
+  font-weight: bold;
+}
+
+.App a{
+  text-decoration: none;
+}
+
+.App a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* ***************************************/
+
+.search_bar_box{
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
